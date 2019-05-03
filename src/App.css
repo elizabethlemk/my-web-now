@@ -1,33 +1,94 @@
-.App {
-  text-align: center;
+@media (max-width: 450px) {
+  #bg {
+    z-index: -2;
+    position: absolute;
+    border-left: 100vw solid #7c64af;
+    border-bottom: 30vh solid transparent;
+    border-top: 120vh solid #7c64af;
+  }
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+@media (min-width: 451px) and (max-width: 768px) {
+  #bg {
+    z-index: -2;
+    position: absolute;
+    border-left: 100vw solid #7c64af;
+    border-bottom: 30vh solid transparent;
+    border-top: 60vh solid #7c64af;
+  }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@media (min-width: 769px) {
+  #bg {
+    z-index: -2;
+    position: absolute;
+    border-left: 100vw solid #7c64af;
+    border-bottom: 30vh solid transparent;
+    border-top: 50vh solid #7c64af;
+  }
+}
+
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body a:hover {
+  color: #21ba45;
+}
+
+.company > div.row,
+.services > div.row,
+.others > div.row {
+  margin: 0.5em 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contact {
+  color: white !important ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+td {
+  padding: 0.5em 0;
+}
+.roundbtn {
+  border-radius: 0.6rem !important;
+  font-size: 1rem !important;
+  text-transform: uppercase !important;
+  padding: 0.75em 2em !important;
+}
+
+.service-header {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.services > .ui.header,
+.company > .ui.header,
+.others > .ui.header {
+  color: white !important;
+}
+
+.social > div.row {
+  color: #2f1567 !important;
+  margin: 1.25em 0;
+}
+
+.ui.form input[type="text"] {
+  border: none !important;
+  height: 4rem !important;
+  border-radius: 0.75rem !important;
+}
+
+.ui.inverted.menu {
+  background: #7c64af;
+}
+.ui.menu .item {
+  color: white;
+}
+
+.ui.segment {
+  background: #fbfbfb !important;
+  padding: 2em 1em !important;
 }
