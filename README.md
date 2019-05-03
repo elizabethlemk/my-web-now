@@ -10,5 +10,7 @@
  ## Built with 
  
  React
+ 
  Semantic UI React
+ 
  HTML/CSS
