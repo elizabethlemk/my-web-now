@@ -1,10 +1,28 @@
-@media (max-width: 450px) {
+@media (max-width: 350px) {
   #bg {
     z-index: -2;
     position: absolute;
     border-left: 100vw solid #7c64af;
     border-bottom: 30vh solid transparent;
-    border-top: 120vh solid #7c64af;
+    border-top: 100vh solid #7c64af;
+  }
+  #big-words {
+    font-size: 2rem;
+    color: white;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 450px) {
+  #bg {
+    z-index: -2;
+    position: absolute;
+    border-left: 100vw solid #7c64af;
+    border-bottom: 30vh solid transparent;
+    border-top: 80vh solid #7c64af;
+  }
+  #big-words {
+    font-size: 2rem;
+    color: white;
   }
 }
 
@@ -16,6 +34,10 @@
     border-bottom: 30vh solid transparent;
     border-top: 60vh solid #7c64af;
   }
+  #big-words {
+    font-size: 3rem;
+    color: white;
+  }
 }
 
 @media (min-width: 769px) {
@@ -25,6 +47,10 @@
     border-left: 100vw solid #7c64af;
     border-bottom: 30vh solid transparent;
     border-top: 50vh solid #7c64af;
+  }
+  #big-words {
+    font-size: 4rem;
+    color: white;
   }
 }
 
@@ -48,14 +74,15 @@ body a:hover {
   color: white !important ;
 }
 
-td {
-  padding: 0.5em 0;
-}
 .roundbtn {
   border-radius: 0.6rem !important;
   font-size: 1rem !important;
   text-transform: uppercase !important;
   padding: 0.75em 2em !important;
+}
+
+.roundbtn:hover {
+  background: rgba(135, 135, 135, 0.59);
 }
 
 .service-header {
@@ -75,6 +102,10 @@ td {
   margin: 1.25em 0;
 }
 
+td {
+  padding: 0.5em 0;
+}
+
 .ui.form input[type="text"] {
   border: none !important;
   height: 4rem !important;
@@ -84,6 +115,7 @@ td {
 .ui.inverted.menu {
   background: #7c64af;
 }
+
 .ui.menu .item {
   color: white;
 }

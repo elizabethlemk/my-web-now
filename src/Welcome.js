@@ -5,12 +5,9 @@ const Welcome = () => {
   return (
     <React.Fragment>
       <Container textAlign="center" style={{ padding: "5em 0 " }}>
-        <Header style={{ fontSize: "4em" }}>
-          <span style={{ color: "white" }}>
-            Get a website in <br />
-            15 minutes{" "}
-          </span>
-          <span style={{ color: "#21ba45" }}>or less</span>
+        <Header id="big-words">
+          Get a website in <br />
+          15 minutes <span style={{ color: "#21ba45" }}>or less</span>
         </Header>
         <Form style={{ margin: "auto", width: "40%" }}>
           <Form.Group inline widths="equal">
@@ -54,7 +51,12 @@ const Welcome = () => {
         fugiat sunt velit duis nulla
         <br />
         <Button
-          style={{ margin: "2em 0", background: "#7c64af", color: "white" }}
+          style={{
+            margin: "2em 0",
+            background: "#7c64af",
+            color: "white",
+            boxShadow: "5px 8px 10px rgba(135, 135, 135, 0.59)"
+          }}
           className="roundbtn"
         >
           Create your account

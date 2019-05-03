@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Icon, Menu, Sidebar } from "semantic-ui-react";
+import { Button, Icon, Menu, Sidebar } from "semantic-ui-react";
 
 const MobileNavBar = ({ children, sidebar, handleToggle, handleHide }) => {
   return (
