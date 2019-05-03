@@ -2,7 +2,8 @@
 
 ## My Web Now
  
- 1. ```npm install``
+ To run:
+ 1. ```npm install```
  2. ``` npm start ```
  
  
