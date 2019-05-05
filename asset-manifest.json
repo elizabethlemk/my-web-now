@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/my-web-now/static/css/main.6c476ea7.chunk.css",
+    "main.js": "/my-web-now/static/js/main.f9a1226f.chunk.js",
+    "main.js.map": "/my-web-now/static/js/main.f9a1226f.chunk.js.map",
+    "runtime~main.js": "/my-web-now/static/js/runtime~main.a47d5e1e.js",
+    "runtime~main.js.map": "/my-web-now/static/js/runtime~main.a47d5e1e.js.map",
+    "static/css/2.a56a2503.chunk.css": "/my-web-now/static/css/2.a56a2503.chunk.css",
+    "static/js/2.61da16f5.chunk.js": "/my-web-now/static/js/2.61da16f5.chunk.js",
+    "static/js/2.61da16f5.chunk.js.map": "/my-web-now/static/js/2.61da16f5.chunk.js.map",
+    "index.html": "/my-web-now/index.html",
+    "precache-manifest.fcb9971ff51ee10edf5c113a21bb7961.js": "/my-web-now/precache-manifest.fcb9971ff51ee10edf5c113a21bb7961.js",
+    "service-worker.js": "/my-web-now/service-worker.js",
+    "static/css/2.a56a2503.chunk.css.map": "/my-web-now/static/css/2.a56a2503.chunk.css.map",
+    "static/css/main.6c476ea7.chunk.css.map": "/my-web-now/static/css/main.6c476ea7.chunk.css.map",
+    "static/media/semantic.min.css": "/my-web-now/static/media/outline-icons.ef60a4f6.woff"
+  }
+}
